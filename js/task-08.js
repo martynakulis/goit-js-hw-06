@@ -10,6 +10,6 @@ form.addEventListener('submit', event => {
     return alert('Complete the form fields!');
   }
 
-  event.currentTarget.reset();
   console.log({ email: email.value, password: password.value });
+  event.currentTarget.reset();
 });
